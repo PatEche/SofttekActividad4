@@ -125,7 +125,7 @@ public class Diseño extends javax.swing.JFrame {
         DAOAlumnoImplementacion alumno_dao = new DAOAlumnoImplementacion();
         Alumno alumno = new Alumno();
         
-        if (cajaTextoID.getText().equals("") || cajaTextoNombre.getText().equals("") || cajaTextoNombre.getText().contains("")) {
+        if (cajaTextoID.getText().equals("") || cajaTextoNombre.getText().equals("")) {
             JOptionPane.showMessageDialog(null, "Debe ingresar un id o nombre valido");
         } else {
             
