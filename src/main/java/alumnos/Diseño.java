@@ -135,7 +135,7 @@ public class Diseño extends javax.swing.JFrame {
             alumno.setId(id);
             alumno.setNombre(nombre);
             
-            alumno_dao.registar(alumno);
+            alumno_dao.registrar(alumno);
             
             JOptionPane.showMessageDialog(null, "Registro Exitoso");
             limpiar();

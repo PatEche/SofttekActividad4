@@ -12,7 +12,7 @@ public class DAOAlumnoImplementacion implements DAOAlumno {
     Conexion conexion = Conexion.getInstance();
 
     @Override
-    public void registar(Alumno alumno) {
+    public void registrar(Alumno alumno) {
         try {
 
             Connection conectar = conexion.conectar();
