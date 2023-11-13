@@ -16,7 +16,7 @@ public class Conexion {
     //Creamos las variables para poder conectarnos a la Base de Datos
     private final String URL = "jdbc:mysql://localhost:3306/bd_alumnos";
     private final String USERNAME = "root";
-    private final String PASSWORD = "Java@2023";
+    private final String PASSWORD = "";
 
     //Creamos el metodo para conectarnos a la base de datos    
     public Connection conectar() {
